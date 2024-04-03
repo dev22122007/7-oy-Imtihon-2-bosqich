@@ -1,0 +1,146 @@
+
+.cartModal_shopping-cart {
+    height: fit-content;
+    z-index: 1000;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 500px;
+}
+
+.cartModal_cart-name-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cartModal_remove-all-text {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1.5625rem;
+    text-decoration-line: underline;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.cartModal_item-count {
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: 0.08038rem;
+    text-transform: uppercase;
+}
+
+.header_shopping-cart-page-cover {
+    background-color: black;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height: 100vh;
+    opacity: .4;
+}
+
+.cartModal_product-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.cartModal_product-img {
+    width: 74px;
+    height: 74px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.cartModal_product-img-name-container {
+    display: flex;
+
+}
+
+.cartModal_name-price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.cartModal_name {
+    margin: 0px;
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 0.8375rem;
+}
+
+.cartModal_price {
+    margin: 0px;
+    font-weight: 700;
+    line-height: 25px;
+    opacity: 0.5;
+    font-size: 0.775rem;
+
+}
+
+.cartModal_btn {
+    width: 100% ;
+}
+
+.cartModal_total-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cartModal_total-title {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1.5625rem;
+    opacity: 0.5;
+}
+
+.cartModal_total-value {
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cartModal_plus-minus-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F1F1F1;
+    width: 96px;
+    height: 32px;
+}
+
+.cartModal_minus,
+.cartModal_plus {
+    width: 40px;
+    height: 100%;
+    border: none;
+    opacity: 0.5;
+    cursor: pointer;
+    font-size: 0.8125rem;
+    transition-property: color, opacity;
+    transition-duration: 400ms;
+}
+
+.cartModal_minus:hover,
+.cartModal_plus:hover {
+    color: #D87D4A;
+    opacity: 1;
+}
+
+.cartModal_product-count {
+    font-weight: 700;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+
+}
+
+
+@media screen and (min-width: 750px) {
+    
+}

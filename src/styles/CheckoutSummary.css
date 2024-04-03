@@ -1,0 +1,111 @@
+
+.checkoutSummary_container {
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+}
+
+.checkoutSummary_title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: 0.08038rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.checkoutSummary_product-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.checkoutSummary_product-img {
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.checkoutSummary_product-container-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkoutSummary_name {
+    max-width: 100px;
+    margin: 0px;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+}
+
+.checkoutSummary_price {
+    margin: 0px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    opacity: 0.5;
+}
+
+.checkoutSummary_count {
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    opacity: 0.5;
+}
+
+.checkoutSummary_price-breakdown-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 32px
+}
+
+.checkoutSummary_breakdown-line-title {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1.5625rem;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.checkoutSummary_breakdown-line-value {
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.checkoutSummary_grand-total-container {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.checkoutSummary_grand-total-text {
+    color: #D87D4A;
+}
+
+@media screen and (min-width: 750px) {
+    .checkoutSummary_container {
+        margin-bottom: -100px;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .checkoutSummary_container {
+        height: fit-content;
+        width: 30%;
+        margin-top: 0px;
+    }
+}

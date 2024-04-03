@@ -1,0 +1,176 @@
+.header_container {
+    background-color: #191919;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 1000;
+    border-bottom: 1px solid #343a40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_burger-logo-container {
+    width: 62%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.burger-menu {
+    transition: transform 300ms;
+}
+
+.burger-menu:active {
+    transform: scale(.8);
+}
+
+.header_svg {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.header_burger-menu-content {
+    background-color: white;width: 100%;
+    position: absolute;
+    padding-top: 100px;
+    top: 100px;
+}
+
+.header_burger-menu-hide {
+    display: none;
+}
+
+.header_burger-menu-show {
+    display: block;
+}
+
+.header_burger-menu-page-cover {
+    background-color: black;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 100vh;
+    opacity: .4;
+}
+
+.header_hide {
+    display: none;
+}
+
+.header_cart-num {
+    position: absolute;
+    color: white;
+    background-color: #D87D4A;
+    border-radius: 50px;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+    top: 28px;
+    right: 13px;
+    cursor: pointer;
+}
+
+.shopping-cart-icon {
+    background-color: transparent;
+    border: none;
+}
+
+.header_shopping-cart-content {
+    background-color: white;
+    position: absolute;
+    top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 90%;
+    border-radius: 8px;
+    max-width: 350px;
+}
+
+.header_shopping-cart-page-cover {
+    background-color: black;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 100vh;
+    opacity: .4;
+}
+
+.header_nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.header_nav-link {
+    font-weight: 700;
+    line-height: 25px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 0.8125rem;
+    cursor: pointer;
+    transition: color 700ms;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.header_nav-link:hover {
+    color: #D87D4A;
+}
+
+
+@media screen and (min-width: 750px) {
+    .header_shopping-cart-content {
+        margin-left: initial;
+        margin-right: initial;
+        left: initial;
+        right: 30px;
+    }
+
+    .header_burger-logo-container {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .burger-menu {
+        display: none;
+    }
+
+    .header-container {
+       text-align: center;
+       width: 100%;
+       border: 1px solid red;
+    }
+
+    .shopping-cart-icon {
+        margin-right: 50px;
+    }
+
+    .header_cart-num {
+        right: 70px;
+    }
+
+    .header_logo {
+        margin-left: 70px;
+    }
+
+    .header_nav-container {
+        display: inherit;
+        width: fit-content;
+        margin: 0 auto;
+    }
+}
